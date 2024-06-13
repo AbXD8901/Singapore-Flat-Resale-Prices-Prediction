@@ -48,7 +48,6 @@ Train the model using the training data.
 Use the model to make predictions on new data.
 Results
 ### The model achieved the following performance metrics:
-Mean Squared Error (MSE): 847,560,309.02
 R2 Score: 0.97
 These metrics indicate that the model has high accuracy in predicting flat resale prices.
 
