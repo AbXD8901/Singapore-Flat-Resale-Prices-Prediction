@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
 # Load the cleaned data
-cleaned_data_path = r'C:\Users\Ab Deshmukh\Desktop\Python\VSCode\RealEstate\MAIN.csv'
+cleaned_data_path = r'C:\Users\MAIN.csv'
 df = pd.read_csv(cleaned_data_path)
 
 # Select categorical columns for label encoding
