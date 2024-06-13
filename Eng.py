@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the cleaned data
-cleaned_data_path = r"C:\Users\Ab Deshmukh\Desktop\Python\VSCode\RealEstate\Ready.csv"
+cleaned_data_path = r"C:\Users\Ready.csv"
 df = pd.read_csv(cleaned_data_path)
 
 # Step 1: Extract Year and Month from the 'month' column
