@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 # Load the combined data with low_memory=False to avoid DtypeWarning
-combined_data_path = r"C:\Users\Ab Deshmukh\Desktop\Python\VSCode\RealEstate\Resale data.csv"
+combined_data_path = r"C:\Users\.csv"
 df = pd.read_csv(combined_data_path, low_memory=False)
 
 # Step 1: Check for duplicates and remove them
