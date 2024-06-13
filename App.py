@@ -12,7 +12,7 @@ def get_base64_encoded_image(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Path to your local image
-image_path = r'C:\Users\Ab Deshmukh\Desktop\Python\VSCode\RealEstate\image.jpg'
+image_path = r'C:\Userse\image.jpg'
 base64_image = get_base64_encoded_image(image_path)
 
 # Set background image using base64 encoded string
@@ -29,7 +29,7 @@ st.markdown(
 )
 
 # Load the cleaned data
-cleaned_data_path = r"C:\Users\Ab Deshmukh\Desktop\Python\VSCode\RealEstate\one.csv"
+cleaned_data_path = r"C:\Users\one.csv"
 df = pd.read_csv(cleaned_data_path)
 
 # Define features and target variable
