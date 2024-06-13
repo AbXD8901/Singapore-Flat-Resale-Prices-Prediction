@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestRegressor
 from xgboost import XGBRegressor
 
 # Load the cleaned data
-cleaned_data_path = r"C:\Users\Ab Deshmukh\Desktop\Python\VSCode\RealEstate\only.csv"
+cleaned_data_path = r"C:\Users\only.csv"
 df = pd.read_csv(cleaned_data_path)
 
 # Define features and target variable
