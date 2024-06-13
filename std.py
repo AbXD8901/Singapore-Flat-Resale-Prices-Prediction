@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load your dataset
-cleaned_data_path = r"C:\Users\Ab Deshmukh\Desktop\Python\VSCode\RealEstate\FINAL.csv"
+cleaned_data_path = r"C:\Users\Ab Deshmukh\FINAL.csv"
 df = pd.read_csv(cleaned_data_path)
 
 # Display unique values in the 'flat_model' column to identify variations
