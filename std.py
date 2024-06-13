@@ -54,6 +54,6 @@ print("\nUnique flat_model values after standardization:")
 print(unique_flat_models_after)
 
 # Save the updated DataFrame back to CSV if needed
-updated_data_path = r"C:\Users\Ab Deshmukh\Desktop\Python\VSCode\RealEstate\MAIN.csv"
+updated_data_path = r"C:\Users\MAIN.csv"
 df.to_csv(updated_data_path, index=False)
 print(f"\nData saved to {updated_data_path}")
